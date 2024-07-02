@@ -110,6 +110,7 @@ li {
     display: inline-block;
     margin-right: 10px;
     vertical-align: middle;
+    line-height: 25px;
 }
 
 .check {
