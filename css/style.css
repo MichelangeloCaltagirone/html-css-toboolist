@@ -6,7 +6,20 @@
     box-sizing: border-box;
 }
 
+.new-task,
+.today,
+.upcoming {
+    margin: 40px 30px;
+}
 
+.type-of-section {
+    margin-bottom: 20px;
+}
+
+li {
+    font-weight: 600;
+    margin: 15px 0;
+}
 
 /* Utilities */
 
@@ -14,6 +27,7 @@
 
 body {
     background-color: lightgrey;
+    font-family: sans-serif;
 }
 
 .container {
