@@ -6,20 +6,7 @@
     box-sizing: border-box;
 }
 
-.new-task,
-.today,
-.upcoming {
-    margin: 40px 30px;
-}
 
-.type-of-section {
-    margin-bottom: 20px;
-}
-
-li {
-    font-weight: 600;
-    margin: 15px 0;
-}
 
 /* Utilities */
 
@@ -89,7 +76,49 @@ button {
 }
 
 
-/* section New Task */
+/* sections */
 
 
+.new-task,
+.today,
+.upcoming {
+    margin: 40px 30px;
+}
+
+.type-of-section {
+    margin-bottom: 20px;
+}
+
+li {
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+
+/* Marker (cross & check) */
+
+
+.marker {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.check {
+    border-color: lightgreen;
+    color: lightgreen;  
+}
+.cross {
+    border-color: red;
+    color: red;
+}
+
+
+/* Flags */
 
