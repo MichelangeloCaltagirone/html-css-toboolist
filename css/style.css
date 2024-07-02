@@ -11,7 +11,6 @@
 /* Utilities */
 
 
-
 body {
     background-color: lightgrey;
     font-family: sans-serif;
@@ -21,6 +20,7 @@ body {
     max-width: 1080px;
     margin: 40px auto;
     background-color: white;
+    padding-bottom: 1px;
 }
 
 ul {
@@ -29,7 +29,6 @@ ul {
 
 
 /* header */
-
 
 
 header {
@@ -49,7 +48,6 @@ header {
     font-weight: 900;
     font-family: sans-serif;
 }
-
 
 
 /* Main section */
@@ -94,6 +92,10 @@ li {
     margin: 15px 0;
 }
 
+.upcoming {
+    margin-bottom: 0;
+}
+
 
 /* Marker (cross & check) */
 
@@ -121,4 +123,54 @@ li {
 
 
 /* Flags */
+
+
+.flag {
+    border: none;
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+
+
+}
+
+
+/* Varius background color of Flags */
+
+
+.editorial {
+    background-color: lightskyblue;
+}
+
+.q-1 {
+    background-color: purple;
+}
+
+.recruiting {
+    background-color: aquamarine;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.sales {
+    background-color: yellowgreen;
+}
+
+.website {
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
 
