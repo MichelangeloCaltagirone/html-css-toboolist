@@ -6,11 +6,20 @@
     box-sizing: border-box;
 }
 
-/* Generics */
+/* Utilities */
+
+body {
+    background-color: lightgrey;
+}
 
 
 
 /* header */
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+}
 
 
 
